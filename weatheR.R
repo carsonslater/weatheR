@@ -23,7 +23,7 @@ weather <- function(place = "Waco,TX") {
     paste0('curl -s "http://wttr.in/', place, '?T&u" | head -7') |>
       system()
   } else {
-    stop("weather() needs an internet connection to work.")
+    message("weather() needs an internet connection to work.")
   }
 }
 
