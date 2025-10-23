@@ -4,4 +4,4 @@ This is a small R script that prints the weather every time R is initialized. It
 
 It should look like this:
 
-![example.png]()
+![](example.png)
